@@ -1,0 +1,165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-07T11:53:19.032Z",
+        "line": 10,
+        "name": "Login page",
+        "description": "",
+        "id": "hotel-booking-application;login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12457678900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch The Application Url",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_launch_the_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111284100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter The Username In \"java@123\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java@123\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepdefinition.Step_Definition.user_enter_the_username_in_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78112000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter The Password In  \"123\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.stepdefinition.Step_Definition.user_enter_the_password_in_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 605760200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Click The Login Button And It Navigates To Search Hotel Page",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_click_the_login_button_and_it_navigates_to_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-07T11:53:32.380Z",
+        "line": 11,
+        "name": "Login page",
+        "description": "",
+        "id": "hotel-booking-application;login-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 317946600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch The Application Url",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_launch_the_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72004100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Enter The Username In \"sathish510\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sathish510\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepdefinition.Step_Definition.user_enter_the_username_in_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64006900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter The Password In  \"sathish@123\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sathish@123\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.stepdefinition.Step_Definition.user_enter_the_password_in_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 692198000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Click The Login Button And It Navigates To Search Hotel Page",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_click_the_login_button_and_it_navigates_to_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking Application",
+    "description": "",
+    "id": "hotel-booking-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/Adactin.feature",
+    "tags": []
+  }
+]

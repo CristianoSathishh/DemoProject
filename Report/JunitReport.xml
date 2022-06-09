@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="14.659">
+    <testcase classname="Hotel Booking Application" name="Login page" time="13.332">
+        <system-out><![CDATA[Given user Launch The Application Url.......................................passed
+When user Enter The Username In "java@123" Field............................passed
+And user Enter The Password In  "123" Field.................................passed
+Then user Click The Login Button And It Navigates To Search Hotel Page......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Booking Application" name="Login page 2" time="1.154">
+        <system-out><![CDATA[Given user Launch The Application Url.......................................passed
+When user Enter The Username In "sathish510" Field..........................passed
+And user Enter The Password In  "sathish@123" Field.........................passed
+Then user Click The Login Button And It Navigates To Search Hotel Page......passed
+]]></system-out>
+    </testcase>
+</testsuite>
